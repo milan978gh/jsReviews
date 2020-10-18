@@ -11,10 +11,10 @@ Variables
   --clr-primary-3: hsl(205, 72%, 37%);
   --clr-primary-4: hsl(205, 63%, 48%);
   /* primary/main color */
-  --clr-primary-5: hsl(205, 78%, 60%);
+  --clr-primary-5: #49a6e9;
   /* lighter shades of primary color */
   --clr-primary-6: hsl(205, 89%, 70%);
-  --clr-primary-7: hsl(205, 90%, 76%);
+  --clr-primary-7: #8bcbf9;
   --clr-primary-8: hsl(205, 86%, 81%);
   --clr-primary-9: hsl(205, 90%, 88%);
   --clr-primary-10: hsl(205, 100%, 96%);
@@ -243,6 +243,7 @@ main {
   margin: 0 0.5rem;
   transition: var(--transition);
   cursor: pointer;
+  outline: none;
 }
 .prev-btn:hover,
 .next-btn:hover {
